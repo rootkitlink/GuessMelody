@@ -43,6 +43,7 @@
             this.btnGame.TabIndex = 0;
             this.btnGame.Text = "Играть";
             this.btnGame.UseVisualStyleBackColor = true;
+            this.btnGame.Click += new System.EventHandler(this.btnGame_Click);
             // 
             // btnParam
             // 
