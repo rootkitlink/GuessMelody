@@ -24,6 +24,7 @@ namespace GuessMelody
 
         private void btnOkParam_Click(object sender, EventArgs e)
         {
+            Victoryna.WriteParam();
             this.Hide();
         }
 
@@ -38,6 +39,11 @@ namespace GuessMelody
                 Victoryna.list.Clear();
                 Victoryna.list.AddRange(musicList);
             }
+        }
+
+        private void fParam_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
